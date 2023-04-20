@@ -1,0 +1,250 @@
+.page4-logo{
+    img{
+        width: 120px;
+        height: 40px;
+        margin-left: 20px;
+    }
+}
+.header-titles{
+    display: flex;
+    gap: 8px;
+    span{
+        font-size: 6px;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    input{
+        margin-top: 20px;
+        width: 120px;
+    }
+    button{
+        background-color: #5b5bad;
+        color: white;
+        font-size: 14px;
+    }
+}
+.header-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: -20px;
+    img{
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+    }
+}
+.header4-collab{
+    display: flex;
+    gap: 250px;
+}
+.page4-cover{
+    background-image:url("./images/hero-slide-01.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 25vh;
+    width: 100%;
+    h2{
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+}
+
+.page4-details{
+    display: flex;
+    gap: 15px;
+    margin-left: 35px;
+span{
+    background-color: #333399;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 70px;
+    height: 15px;
+    margin-top: 10px;
+}
+img{
+    width: 10px;
+    height: 10px;
+    margin-top: 23px;
+}
+h4{
+    font-size: 12px;
+    margin-top: 23px;
+    text-decoration: underline;
+    color: rgb(53, 118, 53);
+}
+}
+.head-box{
+    background-color: #333399;
+    width: 650px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 2px;
+    margin-left: 250px;
+    padding: 8px 19px 0px 20px;
+    span{
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+    }
+}
+.page4-para{
+    .double-spacing {
+        line-height: 0.5;
+        margin-left: 260px;
+    }
+}
+.main-img{
+    img{
+        margin-left: 400px;
+        margin-top: 60px;
+    }
+    h4{
+        color: #5b5bad;
+        margin-left: 350px;
+        margin-top: 40px;
+    }
+    h3{
+        color: rgb(53, 118, 53); 
+        margin-left: 350px;
+        margin-top: 30px;
+        text-decoration: underline;
+    }
+    hr{
+        border: none;
+        border-top: 1.5px dashed #5b5bad;
+        width: 700px;
+        margin-right: 200px;
+    }
+}
+.page4-table{
+    table{
+        width: 56%;
+        margin-left: 350px;
+    }
+    th {
+        background-color: #5b5bad;
+        color: white;
+      }
+      td{
+        border-color: #333399;
+      }
+}
+.main-cnt{
+    img{
+        margin-left: 400px;
+        margin-top: 60px;
+    }
+    h4{
+        color: #5b5bad;
+        margin-left: 350px;
+        margin-top: 40px;
+    }
+    h3{
+        color: rgb(53, 118, 53); 
+        margin-left: 350px;
+        text-decoration: underline;
+    }
+    hr{
+        border: none;
+        border-top: 1.5px dashed #5b5bad;
+        width: 700px;
+        margin-right: 200px;
+    }
+}
+.content-box{
+    background-color: rgb(224, 221, 221);
+    width: 60%;
+    margin-left: 350px;
+    height: 200px;
+    border: #5b5bad;
+   
+    h3{
+        margin-top: 60px;
+        line-height: 40px;
+        border-bottom: 1px solid #5b5bad;
+        padding: 10px 10px 10px 10px;
+        margin-left: 80px;
+        width: 80%;
+    }
+    h2{
+        font-size: 16px;
+        margin-left: 80px;
+    }  
+}
+.page1-footer{
+    background-image: url("images/bg-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 60vh;
+    width: 100%;
+    margin-top: 100px;
+}
+.page1-bottom{
+    display: flex;
+    gap: 80px;
+}
+.logo-footer{
+    img{
+    height: 120px;
+    width: 85px;
+    margin-top: 110px;
+    margin-left: 120px;
+    }
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    span{
+        background-color: #333399;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 12px;
+        width: 50px;
+        height: 15px;
+    }
+    .footer-text{
+        display: flex;
+        gap: 10px;
+    }
+}
+.footer-map{
+    img{
+        width: 280px;
+        height: 220px;
+        margin-top: 50px;
+    }
+}
+.footer-arrow{
+    background-color: #333399; 
+    width: 55px;
+    padding: 10px;
+    border-radius: 15px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 80px;
+    img{
+       width: 20px;  
+       margin-left: 18px;
+    }
+    span{
+        color: white;
+    }
+}
+.footer-links{
+    display: flex;
+    gap: 50px;
+    color: #339966;
+    margin-left: 120px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
